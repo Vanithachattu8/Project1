@@ -2,6 +2,6 @@ FROM openjdk:17
 
 EXPOSE 8080
 
-ADD target/RestaurantProject-0.0.1-SNAPSOT.jar app.jar
+ADD target/docker-0.0.1-SNAPSOT.jar docker-0.0.1-SNAPSHOT.jar
 
-ENTRYPOINT ["java", "-jar", "/app.jar"]
+ENTRYPOINT ["java", "-jar", "/docker-0.0.1-SNAPSHOT.jar"]
